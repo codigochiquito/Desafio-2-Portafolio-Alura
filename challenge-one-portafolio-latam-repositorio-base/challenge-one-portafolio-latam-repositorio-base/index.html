@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fuente del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.ico">
     <title>Mi Portafolio</title>
 </head>
 
@@ -19,12 +21,12 @@
         <h1 class="cabecera__titulo flex centrar-v">Alura Latam</h1>
         <nav class="navegacion flex centrar-v">
             <ul class="navegacion__lista  flex ">
-                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
-                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
-                <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
-                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
-                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
-                <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+                <li class="navegacion__elemento "><a href="#sobre-mi" class="animated-underline">Sobre mí</a></li>
+            <li class="navegacion__elemento"><a href="#habilidades"class="animated-underline">Habilidades</a></li>
+            <li class="navegacion__elemento"><a href="#aficiones"class="animated-underline">Aficiones</a></li>
+            <li class="navegacion__elemento"><a href="#formacion"class="animated-underline">Formación</a></li>
+            <li class="navegacion__elemento"><a href="#proyectos"class="animated-underline">Proyectos</a></li>
+            <li class="navegacion__elemento"><a href="#contacto"class="animated-underline">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -36,17 +38,17 @@
             <h2 class="presentacion__titulo flex centrar-h">Hola, mi nombre es Elio y construyo páginas web</h2>
             <p class="presentacion__subtitulo contendor flex centrar-h">Soy formado en la Universidad Tecnologica Latinoamericana y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
             <ul class="redes flex centrar-h">
-                <li class="redes__img"><a href="https://github.com/codigochiquito">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
-                <li class="redes__img"><a href="https://www.linkedin.com/in/elio-mentesana/">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
-                <li class="redes__img"><a href="https://www.instagram.com/sistemacentralweb/">Instagram <img src="assets/arrow.png" alt="Flecha"></a></li>
-                <li class="redes__img"><a href="">Currículo <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://github.com/codigochiquito" class="animated-underline"  target="_blank">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://www.linkedin.com/in/elio-mentesana/" class="animated-underline" target="_blank">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://www.instagram.com/sistemacentralweb/" class="animated-underline" target="_blank">Instagram <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://www.facebook.com/profile.php?id=61552407025626" class="animated-underline" target="_blank">Facebook <img src="assets/arrow.png" alt="Flecha"></a></li>
             </ul>
         </div>
     </section>
 
     <!-- Sección sobre mí -->
     <section class="sobre-mi" id="sobre-mi">
-        <h2 class="sobre-mi__titulo contenedor">Sobre mí</h2>
+        <h2 class="sobre-mi__titulo contenedor animated-underline">Sobre mí</h2>
         <p class="sobre-mi__texto contenedor">Soy Analista de Sistemas y actualmente me encuentro en mi Tesis final de Ingenieria en Sistemas Computacionales.</p>
         <p class="sobre-mi__texto contenedor">Me encanta hablar ingles y practicar con extranjeros tambien me gusta mucho el deporte.</p>
         <!-- Firma opcional -->
@@ -55,7 +57,7 @@
 
     <!-- Sección de Habilidades -->
     <section class="habilidades" id="habilidades">
-        <h2 class="habilidades__titulo contenedor">Habilidades</h2>
+        <h2 class="habilidades__titulo contenedor animated-underline">Habilidades</h2>
         <ul class="habilidades__lista flex centrar-v centrar-h">
             <li class="habilidades__elemento">
                 <img class="habilidades__icono" src="assets/html.png" alt="HTML">
@@ -86,7 +88,7 @@
 
     <!-- Sección de Aficiones -->
     <section class="aficiones" id="aficiones">
-        <h2 class="aficiones__titulo contenedor">Aficiones</h2>
+        <h2 class="aficiones__titulo contenedor animated-underline">Aficiones</h2>
         <ul class="aficiones__lista flex centrar-h centrar-v">
             <li class="aficiones__elemento">
                 <img class="aficiones__icono" src="assets/skate_icon.png" alt="Patinaje">
@@ -117,7 +119,7 @@
 
     <!-- Sección de Formación académica -->
     <section class="formacion" id="formacion">
-        <h2 class="formacion__titulo contenedor">Formación académica</h2>
+        <h2 class="formacion__titulo contenedor animated-underline">Formación académica</h2>
         <ul class="formacion__lista centrar-h flex">
             <li class="formacion__elemento flex centrar-h">
                 <img class="formacion__icono " src="assets/utel-logo.png" alt="UFPR">
@@ -130,14 +132,14 @@
                 <img class="formacion__icono" src="assets/alura-logo2.jpeg" alt="Alura" >
                 <div>
                     <h3 class="formacion__nombre">Formación en Fron End</h3>
-                    <p class="formacion__detalle">2024 - Alura</p>
+                    <p class="formacion__detalle">En curso - Alura - 2024</p>
                 </div>
             </li>
             <li class="formacion__elemento flex centrar-h">
                 <img class="formacion__icono" src="assets/utel-logo.png" alt="UFRJ">
                 <div>
                     <h3 class="formacion__nombre">Ingenieria en Sistemas</h3>
-                    <p class="formacion__detalle">En curso - UTEL</p>
+                    <p class="formacion__detalle">En curso - UTEL - 2024</p>
                 </div>
             </li>
         </ul>
@@ -145,7 +147,7 @@
 
     <!-- Sección de Proyectos -->
     <section class="proyectos" id="proyectos">
-        <h2 class="proyectos__titulo contenedor">Experiencia Profesional</h2>
+        <h2 class="proyectos__titulo contenedor animated-underline">Experiencia Profesional</h2>
         <div class="proyectos__contenedor">
             <h3 class="proyectos__nombre contenedor">Desarrollador Web</h3>
             <p class="proyectos__descripcion contenedor">Mantenimiento de Webs y trabajando para distintos proyectos </p>
@@ -159,7 +161,7 @@
     <!-- Sección de Contacto -->
 <!-- Sección de Contacto -->
 <section class="contacto" id="contacto">
-    <h2 class="contacto__titulo flex centrar-h">Contacto</h2>
+    <h2 class="contacto__titulo flex centrar-h animated-underline">Contacto</h2>
     <form 
       class="contacto__formulario flex centrar-v" 
       action="mailto:mandameuncorreoaca@gmail.com" 
@@ -172,6 +174,12 @@
       <button class="contacto__boton" type="submit">Enviar</button>
     </form>
   </section>
+
+  <div class="gtranslate_wrapper"></div>
+  <script>window.gtranslateSettings = {"default_language":"es","detect_browser_language":true,"languages":["es","en"],"wrapper_selector":".gtranslate_wrapper","switcher_horizontal_position":"inline","flag_style":"3d","switcher_text_color":"#f7f7f7","switcher_arrow_color":"#f2f2f2","switcher_border_color":"#161616","switcher_background_color":"#303030","switcher_background_shadow_color":"#474747","switcher_background_hover_color":"#3a3a3a","dropdown_text_color":"#eaeaea","dropdown_hover_color":"#748393","dropdown_background_color":"#474747"}</script>
+  <script src="https://cdn.gtranslate.net/widgets/latest/dwf.js" defer></script>
+<div class=" flex centrar-h centrar-v logo-central"> <a href="https://www.sistemacentral.com.ar/" target="_blank"><img src="assets/logo_final_claro-removebg-preview.png" alt="logo sistema central" width="350px"> </a></div>
 </body>
     <script src="script.js"></script>
+    
 </html>
