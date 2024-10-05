@@ -30,7 +30,8 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    background-color: var(--color-de-fondo-menu);
+    background-color: royalblue;
+    color: white;
 }
 
 .cabecera__logo {
@@ -42,6 +43,10 @@ a {
     text-align: center;
 }
 
+.cabecera__titulo:hover{
+    color: #fc5f04;
+}
+
 .navegacion__lista {
     display: none;
     transform: translateY(50%);
@@ -49,6 +54,7 @@ a {
 
 .navegacion__elemento a {
     font-size: 0.9rem;
+    color: white;
 }
 
 .flex{
@@ -109,6 +115,14 @@ a {
  
   }
 
+.habilidades__nombre:hover{
+    color: #fc5f04;
+    font-size: large;
+    transition: transform 0.01s; /* Transición muy rápida */
+}
+
+
+
   .element {
     height: 100px; /* Adjust as needed */
     line-height: 100px; /* Same as height */
@@ -146,6 +160,12 @@ a {
     height: 20px; /* ajusta la altura según tus necesidades */
 }
 
+.aficiones__nombre:hover{
+    color: #fc5f04;
+    font-size: large;
+    transition: transform 0.01s; /* Transición muy rápida */
+}
+
 
 /* Sección de Formación académica*/ 
 .formacion{
@@ -165,13 +185,24 @@ a {
     margin-right: 15px; /* ajusta el espacio entre el icono y el texto */
     
   }
+
+  .formacion__elemento:hover {
+    transform: scale(1.2);
+    transition: transform 0.01s; /* Transición muy rápida */
+  }
+
 .formacion__lista{
     gap: 2rem;
 }
 
 
 /*------------------------------ Sección de Proyectos --------------------------------*/
-
+.proyectos__contenedor:hover {
+    color: royalblue;
+    transition: transform 0.01s; /* Transición muy rápida */
+    font-size: large;
+    
+  }
 
 /*------------------------------ Sección de Contacto ---------------------------------*/
 .contacto__formulario{
@@ -257,3 +288,40 @@ margin-left: 0; /* Elimina el margin izquierdo */
         font-size: 1.1rem;
     }
 }
+
+
+.gtranslate_wrapper {
+    position: fixed;
+   
+    bottom: 10px; /* posición desde la parte superior */
+    left: 2px; /* posición desde la derecha */
+ 
+    z-index: 1000; /* para asegurarte de que se muestra encima de otros elementos */
+  }
+
+  .logo-central{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+
+  .animated-underline {
+    position: relative;
+    color: #000; /* Color del texto */
+    text-decoration: none;
+  }
+  
+  .animated-underline::before {
+    content: '';
+    position: absolute;
+    bottom: -7px; /* Posición del subrayado */
+    left: 0;
+    width: 0;
+    height: 8px; /* Alto del subrayado */
+    background-image: linear-gradient(to right, #fc7f59, #fc5f04); /* Gradiente azul oscuro a negro */
+    transition: width 0.3s ;
+  }
+  
+  .animated-underline:hover::before {
+    width: 100%; /* Ancho del subrayado al pasar el mouse */
+    transition: width 0.03s ;
+  }
